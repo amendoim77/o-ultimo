@@ -11,19 +11,38 @@
     justify-content: center;
     align-items: center;
     padding-top: 15px;
+    color: #402b30;
+    border: solid 3px #9c9994;
+    margin: 10px;
 }
 
 img{
     width: 200px;
     padding-left: 15px;
     padding-right: 15px;
+    border-radius: 25px;
 }
+
 .meta:hover{
-    transition: .5s;
-    transform: scale(1.5);
+    transition: .7s;
+    transform: scale(1.2);
 }
+
+body{
+    background-color: #b3aca4;
+}
+
+h1 {
+  text-align: center;
+  color: #000000; 
+  font-size: 32px; 
+  font-family: Arial, sans-serif; 
+  margin-bottom: 16px;  
+}
+
+
 h2{
-    width: 400px;
+    width: 350px;
 }
 
 p{
